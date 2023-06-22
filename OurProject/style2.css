@@ -1,0 +1,138 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0 ,0 , 0.8)),url("download.jfif");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+#txt{
+    margin: 20px;
+    text-align: center;
+    color:rgb(248, 243, 243);
+    text-shadow:0px 0px 15px rgb(157, 234, 229);
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: x-large;  
+}
+.cont #img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 10%;
+
+}
+#img1{
+   animation-name: image;
+   animation-duration: 2s;
+   animation-iteration-count:1;
+   width: 250px;
+   border-radius:20px ;
+   box-shadow: 0px 0px 15px rgb(194, 215, 217);
+}
+#img2{
+    animation-name: image;
+    animation-duration: 2s;
+    width: 250px;
+    height: 250px;
+    border-radius:20px ;
+   box-shadow: 0px 0px 15px rgb(194, 215, 217);
+}
+#img3{
+    animation-name: image;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+    width: 250px;
+    height: 250px;
+    border-radius:20px ;
+   box-shadow: 0px 0px 15px rgb(194, 215, 217);
+}
+#img4{
+    animation-name: image;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+    width: 250px;
+    height: 250px;
+    border-radius:20px ;
+   box-shadow: 0px 0px 15px rgb(194, 215, 217);
+}
+@keyframes image{
+    from{
+        margin-top: 400px;
+    }
+    to{
+        margin-top: 20px;
+    }
+}
+#img1:hover{
+    /* animation-name: imgh;
+    animation-duration: 0.4s; */
+    transform: scaleX(1.05) scaleY(1.05);
+    transition-duration: 0.3s;
+    box-shadow: 0px 0px 15px rgb(85, 240, 13);
+}
+
+#img2:hover{
+    /* animation-name: imgh;
+    animation-duration: 0.4s; */
+    transform: scaleX(1.05) scaleY(1.05);
+    transition-duration: 0.3s;
+    box-shadow: 0px 0px 15px rgb(85, 240, 13);
+}
+#img3:hover{
+    /* animation-name: imgh;
+    animation-duration: 0.4s; */
+    transform: scaleX(1.05) scaleY(1.05);
+    transition-duration: 0.3s;
+    box-shadow: 0px 0px 15px rgb(85, 240, 13);
+}
+#img4:hover{
+    /* animation-name: imgh;
+    animation-duration:0.4s; */
+    transform: scaleX(1.05) scaleY(1.05);
+    transition-duration: 0.3s;
+    box-shadow: 0px 0px 15px rgb(85, 240, 13);
+}
+/* @keyframes imgh{
+    from{
+        width: 250px;
+    }
+    to{
+        height:270px;
+        width:270px;
+    }
+} */
+.cont #cap{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    /* margin: 25px; */
+    position:absolute;
+    top: 75%;
+    
+}
+#cap li{
+    /* animation-name: txt;
+    animation-duration: 1s; */
+    padding-top: 25px;
+    padding-inline: 85px;
+    text-align:center;
+    /* margin-left: 20px; */
+    color: antiquewhite;
+    text-shadow: 0px 0px 15px rgb(98, 193, 193);
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size:medium;
+}
+/* @keyframes txt{
+    from{
+        font-size: medium;
+    }
+    to{
+        font-size: large;
+    }
+} */

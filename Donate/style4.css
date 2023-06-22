@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0 ,0 , 0.8)),url("download.jfif");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.cont{
+    color: aliceblue;
+    text-shadow: 0px 0px 10px aqua;
+}
+#Mtxt{
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: cursive;
+    text-transform: capitalize;
+    background-color: rgb(254, 250, 247);
+    color: black;
+    width:270px;
+    margin: 2%;
+    padding:10px;
+}
+#Subtxt{
+    font-size: large;
+    font-family: cursive;
+    background-color: black;
+    text-align: justify;
+    width: 500px;
+    margin: 2%;
+    margin-top: 25px;
+    padding: 20px;
+    border: solid rgb(12, 13, 13);
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px aqua;
+}
+.box{
+    color: aliceblue;
+    background-color: black;
+    padding:20px;
+    width: 500px;
+    box-shadow: 0px 0px 15px rgb(235, 251, 251) ;
+    /* height: 200px; */
+}
+.box p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 5px 5px 5px aqua;
+    /* border-bottom: solid; */
+}
+.box input{
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+    box-shadow: 0px 0px 10px aqua;
+    color: antiquewhite;
+}
+.box input::placeholder{
+    color: rgb(254, 254, 254,0.85);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    /* text-align: center; */
+}
+.box input:hover{
+    transform: scale(1.05);
+    border: none;
+}
+.box #id6{
+    margin: 10px;
+    /* padding: 10px; */
+    background-color: black;
+    box-shadow: 0px 0px 10px aqua;
+    color: antiquewhite;
+    margin-left: 15%;
+        
+}
+.box #id6::placeholder{
+    color: rgb(254, 254, 254,0.85);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+.box #id6:hover{
+    transform: scale(1.05);
+    border: none;   
+}
+.box #id7{
+    margin-left:5%;
+}
+.box #idl{
+   margin-left: 45%;
+}
+.box #spid{
+    /* display:inline;
+    justify-content: center; */
+    font-size: 12px;
+    margin-left: 2%;
+    text-transform: uppercase;
+}
